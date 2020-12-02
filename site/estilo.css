@@ -1,0 +1,172 @@
+*{margin: 0;padding: o;}
+
+/* CADASTRO*/
+
+.cadastro1{
+    font-family: Helvetica,  Sans-Serif; 
+    color: red;
+    text-align: center;     
+}   
+
+.container-principal{
+  font-family: 'verdana'; color: #777; 
+}
+
+body{
+  background-color: black;
+   
+}
+
+.bot{
+  font-family: Helvetica,  Sans-Serif; 
+    color:white;
+    text-align: center;
+    background: green;   
+    padding: 10px;
+    text-transform: uppercase;
+    border: none;    
+}
+
+.usuario{
+  top: 350px; 
+  
+  width: 100%; 
+
+  color: white; 
+  font: bold 24px/45px Helvetica, Sans-Serif; 
+  letter-spacing: -1px;  
+
+  padding: 10px; 
+
+}
+
+
+.email{
+  top: 350px; 
+  
+  width: 100%; 
+
+  color: white; 
+  font: bold 24px/45px Helvetica, Sans-Serif; 
+  letter-spacing: -1px;  
+
+  padding: 10px; 
+
+}
+
+.cadastro{
+
+  top: 350px; 
+  left: 0; 
+  width: 100%; 
+
+  color: white; 
+  font: bold 24px/45px Helvetica, Sans-Serif; 
+  letter-spacing: -1px;  
+
+  padding: 10px; 
+}
+
+
+.cad{  
+  top: 350px; 
+  left: 0; 
+  width: 100%; 
+
+  color: white; 
+  font: bold 24px/45px Helvetica, Sans-Serif; 
+  letter-spacing: -1px;  
+
+  padding: 10px; 
+}
+
+
+.senha{
+  top: 350px; 
+  left: 0; 
+  width: 100%; 
+
+  color: white; 
+  font: bold 24px/45px Helvetica, Sans-Serif; 
+  letter-spacing: -1px;  
+
+  padding: 10px; 
+}
+
+
+
+.sex{
+  top: 350px; 
+  left: 0; 
+  width: 100%; 
+
+  color: white; 
+  font: bold 24px/45px Helvetica, Sans-Serif; 
+  letter-spacing: -1px;  
+
+  padding: 10px;
+}
+
+.data{
+  top: 350px; 
+  left: 0; 
+  width: 100%; 
+
+  color: white; 
+  font: bold 24px/45px Helvetica, Sans-Serif; 
+  letter-spacing: -1px;  
+
+  padding: 10px;
+}
+
+
+
+.banner{width: 100%;
+        position: relative; 
+        
+}
+
+.banner img{
+        width: 100%; 
+        margin-bottom: 0;
+        
+    }
+
+
+
+/* definir as propiedades do topo */
+header{width: 100%; height: 100px; background-color:black; position: relative; top: 0;}
+
+
+/* defenir as propriedades do logo */
+.logo{position: absolute; width: 300px; height: auto;}
+.logo img{width: 90%; margin-left: 10%}
+
+
+/* definir as propriedades do menu*/
+nav{position: absolute; right: 30px; bottom: 0px;}
+nav ul li{float: left; color: #fff; width: auto; margin: 0.8em; font-size: 1.5em; font-family: 'verdana'; list-style: none;}
+
+nav ul li a{text-decoration: none;color:#bbb;}
+nav ul li a:hover{color:#b13030}
+
+
+
+
+/*Final*/
+
+.image { 
+
+        position: relative; 
+ 
+        width: 100%;
+ }
+
+
+h2{
+  font-family: Arial;
+  text-align: center;
+  color:white;
+  text-transform: uppercase;
+}
+
