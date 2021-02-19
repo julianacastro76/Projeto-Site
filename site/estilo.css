@@ -1,172 +1,160 @@
+
 *{margin: 0;padding: o;}
 
-/* CADASTRO*/
-
-.cadastro1{
-    font-family: Helvetica,  Sans-Serif; 
-    color: red;
-    text-align: center;     
-}   
-
-.container-principal{
-  font-family: 'verdana'; color: #777; 
-}
-
-body{
-  background-color: black;
-   
-}
-
-.bot{
-  font-family: Helvetica,  Sans-Serif; 
-    color:white;
-    text-align: center;
-    background: green;   
-    padding: 10px;
-    text-transform: uppercase;
-    border: none;    
-}
-
-.usuario{
-  top: 350px; 
-  
-  width: 100%; 
-
-  color: white; 
-  font: bold 24px/45px Helvetica, Sans-Serif; 
-  letter-spacing: -1px;  
-
-  padding: 10px; 
-
-}
-
-
-.email{
-  top: 350px; 
-  
-  width: 100%; 
-
-  color: white; 
-  font: bold 24px/45px Helvetica, Sans-Serif; 
-  letter-spacing: -1px;  
-
-  padding: 10px; 
-
-}
-
-.cadastro{
-
-  top: 350px; 
-  left: 0; 
-  width: 100%; 
-
-  color: white; 
-  font: bold 24px/45px Helvetica, Sans-Serif; 
-  letter-spacing: -1px;  
-
-  padding: 10px; 
-}
-
-
-.cad{  
-  top: 350px; 
-  left: 0; 
-  width: 100%; 
-
-  color: white; 
-  font: bold 24px/45px Helvetica, Sans-Serif; 
-  letter-spacing: -1px;  
-
-  padding: 10px; 
-}
-
-
-.senha{
-  top: 350px; 
-  left: 0; 
-  width: 100%; 
-
-  color: white; 
-  font: bold 24px/45px Helvetica, Sans-Serif; 
-  letter-spacing: -1px;  
-
-  padding: 10px; 
-}
-
-
-
-.sex{
-  top: 350px; 
-  left: 0; 
-  width: 100%; 
-
-  color: white; 
-  font: bold 24px/45px Helvetica, Sans-Serif; 
-  letter-spacing: -1px;  
-
-  padding: 10px;
-}
-
-.data{
-  top: 350px; 
-  left: 0; 
-  width: 100%; 
-
-  color: white; 
-  font: bold 24px/45px Helvetica, Sans-Serif; 
-  letter-spacing: -1px;  
-
-  padding: 10px;
-}
-
-
-
-.banner{width: 100%;
-        position: relative; 
-        
-}
-
-.banner img{
-        width: 100%; 
-        margin-bottom: 0;
-        
-    }
-
-
+/* INICIO*/
 
 /* definir as propiedades do topo */
-header{width: 100%; height: 100px; background-color:black; position: relative; top: 0;}
 
+header.home{
+  font-family: Arial;
+  background: black;
+  width: 100%; 
+  height: 100px; 
+  position: relative; 
+}
 
 /* defenir as propriedades do logo */
-.logo{position: absolute; width: 300px; height: auto;}
-.logo img{width: 90%; margin-left: 10%}
+.logo{
+  position: absolute; 
+  width: 300px; 
+  height: auto;
+}
+.logo img{
+  width: 90%; 
+  margin-left: 10%
+}
 
 
 /* definir as propriedades do menu*/
-nav{position: absolute; right: 30px; bottom: 0px;}
-nav ul li{float: left; color: #fff; width: auto; margin: 0.8em; font-size: 1.5em; font-family: 'verdana'; list-style: none;}
-
-nav ul li a{text-decoration: none;color:#bbb;}
-nav ul li a:hover{color:#b13030}
-
-
-
-
-/*Final*/
-
-.image { 
-
-        position: relative; 
- 
-        width: 100%;
- }
-
-
-h2{
-  font-family: Arial;
-  text-align: center;
-  color:white;
-  text-transform: uppercase;
+nav{
+  position: absolute; 
+  right: 30px; 
+  bottom: 0px;
 }
 
+nav ul li{
+  float: left; 
+  color: #fff; 
+  width: auto; margin: 0.8em; 
+  font-size: 1.5em; 
+  font-family: Arial; 
+  list-style: none;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color:#bbb;
+}
+nav ul li a:hover{
+  color:#b13030
+}
+
+
+
+img{
+  position: relative; 
+  width: 100%
+  
+}
+
+.banner{
+  position: relative; 
+  width: auto;
+}
+
+.banner img{
+  margin-bottom: 0;
+  
+}
+
+
+/* CADASTRO*/
+
+header.CadTop{
+  font-family: Arial;
+  padding: 20px;
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: 30px;
+}
+
+
+div{
+  text-align: center;
+  padding: 8px;
+}
+
+.bot{
+  font-family: Arial;
+  color: white;
+  text-align: center;
+  background: rgb(245, 64, 64);
+  padding: 14px 20px;
+  text-transform: uppercase;
+  border: none;
+  font-size: large;
+  border-radius: 8px;
+}
+
+.bot:hover{
+  background-color:black  ;
+  color: white;
+}
+
+
+p{
+  font-family: Arial;
+}
+
+
+input[type=password]{
+  width: 30%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+
+}
+input[type=text]{
+  width: 30%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+}
+
+input[type=date]{
+  width: 15%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+}
+
+
+footer{
+  text-align: center;
+  font-style: italic;
+}
+
+
+
+.image {
+  background-image: url("imagens/mixes.jpg");
+  background-color: black;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.imagem-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+h1{
+  font-family: Arial;
+  color: white;
+  font-size: 50px;
+}

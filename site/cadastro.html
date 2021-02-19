@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicPlay Cadastro</title>
+
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+    
+    <header class="CadTop">
+        <h1> <strong>Inscreva-se agora</strong></h1>
+    </header>
+    
+    
+    <section>
+        
+        <div>
+            
+            <p>
+                <br><br>
+                <strong>Digite seu e-mail:</strong> <br><br><input type="text" name="nome" id="nome" placeholder="Digite aqui"> <br><br> 
+            </p>
+
+            <p>
+                
+               <strong>Crie uma senha:</strong> <br><br> <input type="password" name="senha" id="senha"  placeholder="Digite aqui"> <br><br>
+            </p>
+
+            <p>
+                
+                <strong>Escolha um nome de usuário:</strong> <br><br> <input type="text" id="user" placeholder="Digite aqui"> <br><br>
+            </p>
+
+            <p> 
+                
+                <strong>Qual a sua data de nascimento: </strong> <br><br>
+                <input type="date" name="data" id="data">
+                <br><br>
+            </p>
+
+            <p>
+                
+               <strong>Sexo:</strong> <br><br> <input type="radio" name="sex" id="masc">
+                <label for="mascul"><strong>Masculino</strong></label>
+
+                <input type="radio" name="sex" id="femin">
+                <label for="femin"> <strong>Feminino</strong></label><br><br>
+                
+            </p>
+        </div>
+
+        <div>
+            
+            <input type="button" class="bot" value="Cadastrar-se" onclick="cadastro()">
+        </div>
+        
+
+        <div id="res">
+
+        </div>
+
+
+    </section>
+    
+    <footer>
+        <p> &copy; MusicPlay</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
